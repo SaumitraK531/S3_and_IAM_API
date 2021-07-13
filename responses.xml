@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>\n<Error>\n<Code>InvalidPart</Code><Message>One or more of the specified parts could not be found. The part might not have been uploaded, or the specified entity tag might not have matched the part\'s entity tag.</Message><Resource>bkt1/file.txt</Resource><RequestId>b83063bb-5957-4c8d-aa3d-0c243b0dd1d6</RequestId></Error>\n
+
+<?xml version="1.0" encoding="UTF-8"?>\n<Error>\n<Code>NoSuchUpload</Code><Message>The specified multipart upload does not exist. The upload ID might be invalid, or the multipart upload might have been aborted or completed.</Message><Resource>bkt2/file.txt</Resource><RequestId>51e45f43-615f-4de1-90e6-af9d7fa9bc93</RequestId></Error>\n
+
+<?xml version="1.0" encoding="UTF-8"?>\n<Error>\n<Code>NoSuchBucket</Code><Message>The specified bucket does not exist.</Message><Resource>new-bucket2/</Resource><RequestId>ee05a691-37f1-4a59-8ca8-6ea22e8289ec</RequestId></Error>\n
+
+<?xml version="1.0" encoding="UTF-8"?>\n<Error>\n<Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Resource/><RequestId>acd409a5-9814-4f66-a8c9-f425bc46c0c9</RequestId></Error>\n
+
+<?xml version="1.0" encoding="UTF-8"?>\n<Error>\n<Code>AccessDenied</Code><Message>Access Denied</Message><Resource>new-bucket/file.txt</Resource><RequestId>f92c1839-4485-4dfb-a75e-d6bbd85b7095</RequestId></Error>\n
